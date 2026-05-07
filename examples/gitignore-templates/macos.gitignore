@@ -1,0 +1,28 @@
+# macOS .gitignore template
+
+# Fichiers système macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icônes
+Icon
+
+# Thumbnails
+._*
+
+# Fichiers qui peuvent apparaître à la racine d'un volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Répertoires potentiellement créés sur des volumes réseau
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk

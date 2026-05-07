@@ -1,0 +1,46 @@
+# Node.js .gitignore template
+# Source : github.com/github/gitignore
+
+# Dépendances
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Build
+dist/
+build/
+.next/
+.nuxt/
+.output/
+.cache/
+
+# Variables d'environnement — NE JAMAIS COMMITER
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+
+# Runtime
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Éditeurs
+.DS_Store
+.vscode/
+.idea/
+
+# Optionnel : package-lock.json (selon les préférences du projet)
+# package-lock.json
